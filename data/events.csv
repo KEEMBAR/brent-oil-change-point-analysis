@@ -1,0 +1,19 @@
+date,event,category,impact
+1990-08-02,Iraq invades Kuwait,conflict,high
+1991-01-17,Gulf War begins,conflict,high
+1997-11-30,OPEC production cut agreement,policy,medium
+2001-09-11,9/11 attacks,terrorism,high
+2003-03-20,Iraq War begins,conflict,high
+2008-09-15,Lehman Brothers bankruptcy,financial,high
+2008-12-16,OPEC production cut (2.2M bpd),policy,medium
+2011-02-15,Libyan civil war begins,conflict,medium
+2014-06-13,ISIS captures Mosul,conflict,medium
+2014-11-27,OPEC maintains production despite price drop,policy,high
+2016-11-30,OPEC production cut agreement,policy,medium
+2018-06-22,OPEC+ production increase,policy,medium
+2020-03-11,COVID-19 declared pandemic,health,high
+2020-04-12,OPEC+ production cut agreement,policy,medium
+2020-04-20,WTI crude goes negative,financial,high
+2022-02-24,Russia invades Ukraine,conflict,high
+2022-10-05,OPEC+ production cut (2M bpd),policy,medium
+2022-12-05,EU oil embargo on Russia,policy,high
