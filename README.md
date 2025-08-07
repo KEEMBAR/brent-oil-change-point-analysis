@@ -3,12 +3,12 @@
 This project analyzes the impact of major geopolitical and economic events on Brent oil prices using Bayesian change point detection. The goal is to provide actionable insights for investors, policymakers, and energy companies by identifying structural breaks in oil price time series and associating them with key global events.
 
 ## Project Structure
-
 brent-oil-change-point-analysis/
 ├── data/
-│   └── raw/
-│       └── BrentOilPrices.csv
-│   └── events.csv
+│   ├── raw/
+│   │   └── BrentOilPrices.csv
+│   ├── events.csv
+│   └── changepoints.csv
 ├── notebooks/
 │   └── eda.ipynb
 ├── src/
@@ -17,10 +17,24 @@ brent-oil-change-point-analysis/
 │   └── utils.py
 ├── dashboard/
 │   ├── backend/
+│   │   ├── app.py
+│   │   └── routes/
+│   │       ├── changepoints.py
+│   │       ├── events.py
+│   │       └── prices.py
 │   └── frontend/
+│       ├── src/
+│       │   ├── components/
+│       │   │   ├── Dashboard.js
+│       │   │   ├── EventFilter.js
+│       │   │   ├── PriceChart.js
+│       │   │   └── VolatilityChart.js
+│       │   └── ...
+│       └── package.json
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
 
 
 ## What Has Been Done
