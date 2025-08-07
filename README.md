@@ -6,10 +6,9 @@ This project analyzes the impact of major geopolitical and economic events on Br
 
 brent-oil-change-point-analysis/
 ├── data/
-│   ├── raw/
-│   │   └── BrentOilPrices.csv
-│   ├── events.csv
-│   └── changepoints.csv
+│   └── raw/
+│       └── BrentOilPrices.csv
+│   └── events.csv
 ├── notebooks/
 │   └── eda.ipynb
 ├── src/
@@ -18,26 +17,11 @@ brent-oil-change-point-analysis/
 │   └── utils.py
 ├── dashboard/
 │   ├── backend/
-│   │   ├── app.py
-│   │   └── routes/
-│   │       ├── changepoints.py
-│   │       ├── events.py
-│   │       └── prices.py
 │   └── frontend/
-│       ├── src/
-│       │   ├── components/
-│       │   │   ├── Dashboard.js
-│       │   │   ├── EventFilter.js
-│       │   │   ├── PriceChart.js
-│       │   │   └── VolatilityChart.js
-│       │   └── ...
-│       └── package.json
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 
-
----
 
 ## What Has Been Done
 
